@@ -1,5 +1,5 @@
 //p5canvas용 width, height 설정(설정이 꼬이기 때문)
-let width=windowWidth, height=windowHeight;
+//let width=windowWidth, height=windowHeight;
 let stars=[];
 let factor = 100;
 let speedSlider;
