@@ -36,10 +36,10 @@ function draw() {
   //속도가 빨라지면 원이 커짐=> 속도를 크기로 매칭
   //3D 공간감 작=>크게 맵핑함.
   let d =map(star.z, 0, 400, 10 , 1);
-  circle(x, y, d);
+  //circle(x, y, d);
   
-  //textSize(d*5);
-  //text("*",x,y);
+  textSize(d*5);
+  text("성찬",x,y);
   stroke(255);
   line(x,y,px,py);
   star.pz=star.z;
